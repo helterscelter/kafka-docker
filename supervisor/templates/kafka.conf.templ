@@ -1,0 +1,5 @@
+[program:$1]
+command=$2/bin/start-kafka.sh $2/config/server.properties
+directory=$2
+autorestart=true
+user=kafka
